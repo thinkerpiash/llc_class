@@ -1,0 +1,228 @@
+
+.header {
+    
+    background: url(../images/bann1.jpg)no-repeat;
+    min-height: 700px;
+    background-size: cover;
+    position: relative;
+    
+}
+.logo{
+    
+    text-transform: uppercase;
+    font-family: cursive;
+    font-size: 30px;
+    float: left;
+    padding-left: 100px;
+    display: block;
+    padding-top: 50px;
+}
+.logo a {
+    
+    text-decoration: none;
+    color: whitesmoke;
+}
+.aa{
+    float: right;
+    margin-top: 60px;
+    
+}
+.aa li a:hover{
+    
+    background: 000;
+    
+}
+.imgs {
+    display: flex;
+    height: 200px;
+}
+.gallery-top-w3ls {
+    margin-bottom: 3em;
+    text-align: center;
+}
+.gallery-top-w3ls hr{
+    
+    width: 200px;
+    background-color: orangered;
+    height: 2px;
+}
+.copyright{
+    
+    background: url(../images/conatc.jpg)no-repeat;
+    margin-top:50px;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    margin-top: -30px;
+}
+.copyright::before{
+    content: "A";
+    font-size: 30px;
+    color: red;
+
+}
+.footertextheader {
+    background: #ecf0f1;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px green;
+}
+.footertextheader hr{
+    
+    width: 250px;
+    background-color: orangered;
+    height: 2px;
+}
+.extralink {
+    height: 300px;
+    background: #ecf0f1;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+}
+.extralink .extralink_box{
+    
+    flex:1;
+    
+}
+.extralink_box li{
+    list-style: none;
+    padding: 5px;
+    
+}
+
+.extralink_box li a{
+    
+    color: black;
+    padding: 5px;
+}
+.extralink_box li a:visited{
+    
+    color: red;
+}
+.extralink_box li .fa {
+    
+    color: gray;
+}
+.col-md-8 ul{
+    
+    padding: 50px;
+    line-height: 10px;
+    float: right;
+
+}
+.col-md-8 ul li{
+    
+    list-style: none;
+    float: left;
+    margin: 20px;
+    
+}
+ul li a{
+    
+    color: white;
+}
+ul li a:visited{
+    
+    color:gray;
+}
+.features_box p{
+    
+    text-shadow: -3px -2px 47px gray;
+}
+.features_box1 p{
+    
+    text-shadow: -3px -2px 47px gray;
+}
+.features_box img{
+    
+    box-shadow: 0px 1px 50px -10px darkolivegreen;
+}
+.features_box1 img{
+    
+    box-shadow: 0px 1px 50px -10px darkolivegreen;
+}
+.header_features{
+    
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    width:90%;
+    margin: auto;
+    padding-top: 50px;
+}
+.header_features .header_features_box{
+    
+    text-align: center;
+    color: dimgray;
+    
+}
+.header_features .header_features_box img{
+    
+    width: 147px;
+    height: 127px;
+}
+.header_features .header_features_box h2{
+    
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+.header_features .header_features_box p{
+    
+    font-size: 13px;
+    color: #7f8c8d;
+}
+.price{
+    
+    background: url(../images/conatc.jpg)no-repeat;
+    
+
+}
+.bodytext {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    padding: 50px;
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 100px black;
+}
+.flexbox{
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom:50px;
+}
+.flexbox .flex_tab{
+    
+    flex:1;
+    position: relative;
+    background:#ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    height:350px;
+    margin:40px;
+    border-radius:9px;
+    box-shadow:0px 0px 10px #7f8c8d;
+    transition: all .50s;
+}
+.flex_tab:hover{
+    transform: translateY(-10px);
+    box-shadow: 2px 2px 30px #7f8c8d;
+}
+.flexbox .flex_tab .under_flextab{
+    
+    padding: 20px;
+}
+.flextab_footer{
+    
+    background-color:#f8f8f8;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 150px;
+    padding:30px;
+    border-radius:0 0 10px 10px;
+}
